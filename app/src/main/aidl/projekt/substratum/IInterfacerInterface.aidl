@@ -43,7 +43,7 @@ interface IInterfacerInterface {
     /**
      * Perform a low-level configuration change
      */
-    void configurationShim();
+    void configurationShim(int firstDelay, int secondDelay);
 
     /**
      * Apply a specified bootanimation
